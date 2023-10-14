@@ -1,0 +1,43 @@
+/* 
+body{
+    background-image: url("./img/bg.jpg");
+    display: flex;
+}
+.image{
+    max-height: 120px;
+    border: 2 px solid black;
+    display: flex;
+    overflow: hidden;
+    
+}
+.image-gallery{
+    width: 110px;
+    height: 110px;
+    position: absolute;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .4s;
+}
+.image-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0 30px;
+
+}
+img{
+    position: absolute;
+    width:240px;
+    height: 370px;
+    transition: .3s;
+    filter: saturate(10%);
+}
+button{
+    position: absolute;
+    width:240px;
+    height: 370px;
+    transition: .3s;
+
+} */
